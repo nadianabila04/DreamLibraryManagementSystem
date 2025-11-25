@@ -1,0 +1,83 @@
+/* General styling for the application */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #FFC0CB;
+    -fx-padding: 20px;
+}
+
+/* Header styling */
+.label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+/* Button styling */
+.button {
+    -fx-background-color: #CD5C5C;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+
+.button:hover {
+    -fx-background-color: #F08080;
+}
+
+.button:pressed {
+    -fx-background-color: #F08080;
+}
+
+/* TextField styling */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+/* ScrollPane styling */
+.scroll-pane {
+    -fx-pref-width: 500px;
+    -fx-pref-height: 300px;
+    -fx-background-color: transparent;
+    -fx-border-color: #FFB6C1;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.scroll-content {
+    -fx-min-width: 500px;
+}
+
+.parent-container {
+    -fx-pref-width: 600px;
+}
+
+.root {
+    -fx-padding: 10px;
+}
+
+/* TextArea styling */
+.text-area {
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-color: #ccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+}
+
+/* Field label styling */
+.field-label {
+    -fx-font-family: "Arial";
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+}
